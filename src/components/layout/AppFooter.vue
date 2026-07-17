@@ -11,8 +11,13 @@
 footer {
   background-color: #4E342E;
   text-align: center;
-  padding: 20px;
   color: #D6D0CE;
   border-top: 3px solid #DCDCDC;
 }
+
+p {
+  margin: 0;
+  padding: 10px 0;
+}
+
 </style>

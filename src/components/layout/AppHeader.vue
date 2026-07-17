@@ -19,9 +19,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   color:#52453C;
   border-bottom: 3px solid #DCDCDC;
+  border-radius: 30px;
 }
 
 img {
@@ -29,7 +29,7 @@ img {
   width: 50px;
   padding-right: 20px;
   display: block;
-  
+  padding-left: 40px;
 }
 
 h1 {
