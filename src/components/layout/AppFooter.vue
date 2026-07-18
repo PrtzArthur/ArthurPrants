@@ -9,6 +9,9 @@
 <style scoped>
 
 footer {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  border-radius: 30px;
   background-color: #4E342E;
   text-align: center;
   color: #D6D0CE;

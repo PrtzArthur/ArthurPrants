@@ -15,6 +15,8 @@
 <style scoped>
 
 .header-content {
+  margin-right: 1vw;
+  margin-left: 1vw;
   background-color: #FEFEFE;
   display: flex;
   justify-content: space-between;

@@ -1,44 +1,47 @@
-# .
+# Trabalho Vue Coffee-Quality-Challenge / Arthur Prants 2info1
 
-This template should help get you started developing with Vue 3 in Vite.
+Possuo nesse trabalho 5 componentes na pasta src\components\layout, sendo eles:
 
-## Recommended IDE Setup
+* AppFooter.vue
+* AppHeader.vue
+* CoffeCard.vue
+* LeaderboardTable.vue
+* RatingForm.vue
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Possuo um arquivo router na pasta src\router, sendo ele:
 
-## Recommended Browser Setup
+* index.js
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Possuo 3 páginas na pasta src\views, sendo elas:
 
-## Customize configuration
+* FormularioView.vue
+* HomeView.vue
+* RankingView.vue
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Possuo um componente raiz, sendo ele:
 
-## Project Setup
+* App.vue
 
-```sh
-npm install
-```
+E também possuo pastas separadas com css dentro da pasta assets, sendo elas:
 
-### Compile and Hot-Reload for Development
+* main.css
+* base.css
 
-```sh
-npm run dev
-```
+Uso o componente CoffeCard em um botão de ver detalhes na página RankingView.vue, este é o anexo do CoffeCard funcionando:
 
-### Compile and Minify for Production
+<img src="src/assets/CoffeCardFunciona.png" width="300px" alt="Imagem-coffeeCard">
 
-```sh
-npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+Uso o componente LeaderboardTable na página RankingView.vue, este é o anexo do LeaderboardTable sendo usado e a página RankingView.vue funcionando:
 
-```sh
-npm run lint
-```
+<img src="src/assets/LeaderboardTableFunciona.png" width="300px" alt="Imagem-LeaderboardTable">
+<img src="src/assets/rankingFunciona.png" width="300px" alt="Imagem-rankingFunciona">
+
+Uso o componente RatingForm na página FormularioView.vue, este é o anexo do RatingForm sendo usado e a página RankingView.vue funcionando:
+
+<img src="src/assets/FormularioFuncionando.png" width="300px" alt="Imagem-formula">
+<img src="src/assets/PaginaAvaliacao.png" width="300px" alt="Imagem-paginaAvaliacao">
+
+No anexo seguinte apresento a página home do site, no caso sendo o arquivo HomeView.vue:
+
+<img src="src/assets/homeFuncionando.png" width="300px" alt="Imagem-homezona">
